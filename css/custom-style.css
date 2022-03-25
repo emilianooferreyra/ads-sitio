@@ -1,0 +1,70 @@
+/*------------GENERAL CLASSES------------*/
+
+.no-decoration {
+    color: black;
+    text-decoration: none;
+}
+
+/*----------------------------------------*/
+
+
+/*------------SPECIFIC CLASSES------------*/
+
+.logo-block {
+    margin-top: 0.5em;
+}
+
+.sticky .logo-block {
+    margin-top: 1em;
+}
+
+.logo {
+    height: 5rem;
+    width:auto;
+    margin-left: 20px;
+}
+
+.sticky .logo {
+    height: 3rem;
+    width: auto;
+}
+
+.leyenda {
+    margin-left: 0.2em;
+    font-weight: 600;
+    font-size: 1.2rem;
+    font-family: 'Raleway', sans-serif;
+}
+@media only screen and  (min-width: 992px) and  (max-width: 1240px) {
+
+    .logo-block img {
+        float: left !important;
+    }
+
+    .logo-block span {
+        float: left !important;
+    }
+
+    .logo-block #span-agrandar {
+        margin-top: 1em
+    }
+
+    .serv-sec {
+        min-height: 597px !important;
+    }
+
+
+}
+/*----------------------------------------*/
+@media (max-width: 400px) {
+.logo {
+    height: 5rem;
+    width:auto;
+    margin-left:10px;
+    margin-top: -10px!important;
+}
+.slogan {
+    margin: 37px 69px 0px!important;
+    font-weight: bold!important;
+    font-size: 11px!important;}
+}
